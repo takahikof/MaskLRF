@@ -9,15 +9,16 @@ After launching the Docker container, run the following shell script to install 
 ```
 ## Datasets
 See [DATASET.md](DATASET.md) for details. 
-## Self-supervised pretraining by MaskLRF
+## Self-supervised pretraining
 Run the following shell script to start pretraining from scratch with the configurations used in the paper.
 ```
 ./Run_MaskLRF_pretraining.sh
 ```
 You can also download the pretrained DNN parameters below. 
-| DNN model | Dataset for pretraining | URL |
+Save ckpt-last.pth in the directory "experiments/pretrain/".
+| DNN model | Dataset for pretraining | Pretrained parameters |
 | ---- | ---- | ---- |
-| R2PT | ShapeNetCore55 | aaa | 
+| R2PT | ShapeNetCore55 | [ckpt-last.pth](https://drive.google.com/file/d/1H6tVSQD0_1yKhwc_0Z_juptGfbGXSzkZ/view?usp=sharing) | 
 
 ## Supervised finetuning
 ### Real-world object classification
