@@ -69,7 +69,7 @@ Download: Please download the data from my Google Drive.<br>
 [shapenetcore55_2048pts_withnormal_all.h5](https://drive.google.com/file/d/1W8YwEfR_swUK5imHN5l7T-7xTbGoOwRa/view?usp=sharing)<br>
 [shapenetcore55_2048pts_withnormal_test.h5](https://drive.google.com/file/d/1pOnjCP6tTlHM3MNIgnIUsOtTd-ahhhKV/view?usp=sharing)
 
-### ShapeNetPart Dataset:
+### ShapeNetPart Dataset (for finetuning):
 ```
 |shapenetcore_partanno_segmentation_benchmark_v0_normal/
 ├──02691156/
