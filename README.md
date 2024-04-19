@@ -14,16 +14,25 @@ Run the following shell script to start pretraining from scratch with the config
 ```
 ./Run_MaskLRF_pretraining.sh
 ```
-You can also download the pretrained DNN parameters below. 
+You can also download the pretrained DNN parameters below. <br>
 Save ckpt-last.pth in the directory "experiments/pretrain/".
 | DNN model | Dataset for pretraining | Pretrained parameters |
 | ---- | ---- | ---- |
 | R2PT | ShapeNetCore55 | [ckpt-last.pth](https://drive.google.com/file/d/1H6tVSQD0_1yKhwc_0Z_juptGfbGXSzkZ/view?usp=sharing) | 
 
 ## Supervised finetuning
+Run the corresponding shell script to finetune the pretrained model and evaluate its accuracy in a downstream task.<br>
+By default, finetuning/evaluation is done in the NR/SO3 rotation setting.<br>
+A log file will be saved in the directory "experiments/".
 ### Real-world object classification
-TODO
+```
+./Run_MaskLRF_finetuning_cls.sh
+```
 ### Few-shot object classification
-TODO
+```
+./Run_MaskLRF_finetuning_fewshot.sh
+```
 ### Part segmentation
-TODO
+```
+./Run_MaskLRF_finetuning_partseg.sh
+```
