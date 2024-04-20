@@ -1,0 +1,5 @@
+NAME: ModelNet
+DATA_PATH: data/ModelNet/modelnet40_normal_resampled1024
+N_POINTS: 1024
+NUM_CATEGORY: 40
+USE_NORMALS: FALSE
