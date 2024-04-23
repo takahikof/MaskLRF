@@ -71,12 +71,13 @@ Download: Please download the data from my Google Drive.<br>
 
 ### ShapeNetPart Dataset (for finetuning):
 ```
-|shapenetcore_partanno_segmentation_benchmark_v0_normal/
-├──02691156/
-│  ├── 1a04e3eab45ca15dd86060f189eb133.txt
+|ShapeNetPart
+├──shapenetcore_partanno_segmentation_benchmark_v0_normal/
+│  ├──02691156/
+│  │  ├── 1a04e3eab45ca15dd86060f189eb133.txt
+│  │  ├── .......
 │  ├── .......
-│── .......
-│──train_test_split/
-│──synsetoffset2category.txt
+│  ├──train_test_split/
+│  ├──synsetoffset2category.txt
 ```
 Download: Please download the data from [here](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip). 
