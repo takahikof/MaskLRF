@@ -1,6 +1,6 @@
 # MaskLRF
 ## Introduction
-This repository provides the official codes (PyTorch implementation) for the paper **["MaskLRF: Self-supervised Pretraining via Masked Autoencoding of Local Reference Frames for Rotation-invariant 3D Point Set Analysis"](https://arxiv.org/abs/2403.00206)**. The paper is currently under review.
+This repository provides the official codes (PyTorch implementation) for the paper **["MaskLRF: Self-supervised Pretraining via Masked Autoencoding of Local Reference Frames for Rotation-invariant 3D Point Set Analysis"](https://arxiv.org/abs/2403.00206)**. The paper is accepted to the IEEE Access journal.
 ## Pre-requisites
 My code has been tested on Ubuntu 22.04. I highly recommend using the Docker container "nvcr.io/nvidia/pytorch:21.09-py3", which is provided by [Nvidia NGC](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch/tags).
 After launching the Docker container, run the following shell script to install the prerequisite libraries.
